@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 6e133c672922b824796d9758ff14f2fa
+timeCreated: 1517266656
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Gun
+    100002: Lights
+    100004: LightsRim
+    100006: //RootNode
+    100008: TankBody
+    100010: TankCockpit
+    100012: TankSides
+    100014: Tracks
+    100016: WheelsFront
+    100018: WheelsFront_MeshPart0
+    100020: WheelsFront_MeshPart1
+    100022: WheelsRear
+    100024: WheelsRear_MeshPart0
+    100026: WheelsRear_MeshPart1
+    400000: Gun
+    400002: Lights
+    400004: LightsRim
+    400006: //RootNode
+    400008: TankBody
+    400010: TankCockpit
+    400012: TankSides
+    400014: Tracks
+    400016: WheelsFront
+    400018: WheelsFront_MeshPart0
+    400020: WheelsFront_MeshPart1
+    400022: WheelsRear
+    400024: WheelsRear_MeshPart0
+    400026: WheelsRear_MeshPart1
+    2300000: Gun
+    2300002: Lights
+    2300004: LightsRim
+    2300006: TankBody
+    2300008: TankCockpit
+    2300010: TankSides
+    2300012: Tracks
+    2300014: WheelsFront_MeshPart0
+    2300016: WheelsFront_MeshPart1
+    2300018: WheelsRear_MeshPart0
+    2300020: WheelsRear_MeshPart1
+    3300000: Gun
+    3300002: Lights
+    3300004: LightsRim
+    3300006: TankBody
+    3300008: TankCockpit
+    3300010: TankSides
+    3300012: Tracks
+    3300014: WheelsFront_MeshPart0
+    3300016: WheelsFront_MeshPart1
+    3300018: WheelsRear_MeshPart0
+    3300020: WheelsRear_MeshPart1
+    4300000: Lights
+    4300002: WheelsRear_MeshPart0
+    4300004: WheelsRear_MeshPart1
+    4300006: Tracks
+    4300008: LightsRim
+    4300010: Gun
+    4300012: TankCockpit
+    4300014: TankBody
+    4300016: TankSides
+    4300018: WheelsFront_MeshPart0
+    4300020: WheelsFront_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

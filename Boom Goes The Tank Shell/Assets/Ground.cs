@@ -6,6 +6,7 @@ public class Ground : MonoBehaviour {
 
     [SerializeField] private int terrainRange = 20;
     [SerializeField] private int pointsPerMeter = 4;
+    [SerializeField] private bool drawGizmos = false;
 
 	// Use this for initialization
 	void Start () {
@@ -27,7 +28,7 @@ public class Ground : MonoBehaviour {
             if(i >= terrainRange)
             {
                 points.Add(new Vector2(i, 0));
-                Debug.Log(i);
+                //Debug.Log(i);
                 continue;
             }
 
@@ -49,6 +50,8 @@ public class Ground : MonoBehaviour {
 
     private void OnDrawGizmos()
     {
+        if (!drawGizmos)
+            return;
         EdgeCollider2D collider = GetComponent<EdgeCollider2D>();
         Vector2[] points = collider.points;
 
@@ -92,30 +95,45 @@ public class Ground : MonoBehaviour {
         }
 
         float maxDepth = damage;
-        float falloff = .99f;
+        float falloff = damage;
         float newRange = range * pointsPerMeter;   // in meters, times pointsPerMeter
         int iterator = 0;
 
+        Debug.Log("Range - " + newRange);
+
         points = collider.points;
 
+        float initPos = points[index].y;
         points[index].y -= maxDepth;
         iterator++;
 
-        Debug.Log(newRange + " - range");
+        float angleIterations = 90.0f / (newRange / 2.0f);
+        float currentAngle = 0.0f;
+
         for (int i = 0; i < newRange; i++)
         {
-            maxDepth *= falloff;
+            maxDepth -= 0.15f;
 
             if (index + iterator < points.Length)
+            {
                 points[index + iterator].y -= maxDepth;
+                Debug.Log(points[index + iterator].y);
+            }
+            //else Debug.Log("Index not found");
 
             if (index - iterator > 0)
                 points[index - iterator].y -= maxDepth;
+            //else Debug.Log("Index not found");
 
-            Debug.Log(iterator + " - iterator");
+            //Debug.Log(iterator + " - iterator");
             iterator++;
         }
 
         collider.points = points;
     }
+
+    //private float CalculateCircleDistance(float maxDepth, Vector2 initPos, float angle)
+    //{
+    //    Vector2 dir = Mathf.
+    //}
 }

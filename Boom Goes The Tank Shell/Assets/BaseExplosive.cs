@@ -12,7 +12,7 @@ public class BaseExplosive : MonoBehaviour {
         if (collision.gameObject.name == "GroundCollider")
         {
             collision.gameObject.GetComponent<Ground>().DestroyAt(collision.contacts[0].point, range, damage);
-            Destroy(gameObject);
+            Destroy(gameObject);            
         }
     }
 }

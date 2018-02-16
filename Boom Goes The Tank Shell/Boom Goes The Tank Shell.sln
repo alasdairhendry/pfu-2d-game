@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boom Goes The Tank Shell", "Boom Goes The Tank Shell.csproj", "{A7E7409D-5759-9859-9E5E-A814AD5C244A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boom Goes The Tank Shell.Editor", "Boom Goes The Tank Shell.Editor.csproj", "{A6473E11-3E29-4DBD-2C2F-753A5D0A0926}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{A7E7409D-5759-9859-9E5E-A814AD5C244A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7E7409D-5759-9859-9E5E-A814AD5C244A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7E7409D-5759-9859-9E5E-A814AD5C244A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6473E11-3E29-4DBD-2C2F-753A5D0A0926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6473E11-3E29-4DBD-2C2F-753A5D0A0926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6473E11-3E29-4DBD-2C2F-753A5D0A0926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6473E11-3E29-4DBD-2C2F-753A5D0A0926}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
